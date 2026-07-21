@@ -1,0 +1,11 @@
+.Hello {
+    & .avatar-main{
+        & .box-item{
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        & .box-item:hover{
+            transform: scale(1.03);
+            box-shadow: 0 1px 2px white;
+        }
+    }
+}

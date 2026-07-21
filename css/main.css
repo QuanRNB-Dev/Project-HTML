@@ -3,6 +3,7 @@
 @import url(./sections/introduce.css);
 @import url(./sections/AboutMe-SkillS.css);
 @import url(./sections/Project.css);
+@import url(./animation.css);
 @import url(./responsive.css);
 *{
     margin: 0;
