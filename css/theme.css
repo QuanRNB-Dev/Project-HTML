@@ -1,0 +1,251 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* | Thành phần         | HSLA                         |
+| ------------------ | ---------------------------- |
+| Background chính   | `hsla(222, 65%, 9%, 1)`      |
+| Background section | `hsla(220, 58%, 12%, 1)`     |
+| Card               | `hsla(220, 45%, 17%, 0.95)`  |
+| Card hover         | `hsla(219, 50%, 22%, 1)`     |
+| Navbar             | `hsla(223, 67%, 8%, 0.95)`   |
+| Primary Blue       | `hsla(217, 100%, 60%, 1)`    |
+| Primary Blue Hover | `hsla(216, 100%, 68%, 1)`    |
+| Blue Glow          | `hsla(220, 100%, 65%, 0.35)` |
+| Border             | `hsla(219, 35%, 28%, 1)`     |
+| Text chính         | `hsla(0, 0%, 97%, 1)`        |
+| Text phụ           | `hsla(220, 18%, 72%, 1)`     |
+| Text mờ            | `hsla(220, 12%, 55%, 1)`     |
+| Success            | `hsla(145, 70%, 48%, 1)`     |
+| Warning            | `hsla(38, 100%, 58%, 1)`     |
+| Danger             | `hsla(0, 85%, 63%, 1)`       | */
+:root {
+    --p-background-main: hsla(222, 65%, 9%, 1);
+    --p-background-section: hsla(220, 58%, 12%, 1);
+    --p-card:hsla(220, 45%, 17%, 0.95);
+    --p-card-hover:hsla(219, 50%, 22%, 1);
+    --p-navbar:hsla(223, 67%, 8%, 0.95);
+    --p-primary:hsla(217, 100%, 60%, 1);
+    --p-primary-hover:hsla(216, 100%, 68%, 1);
+    --p-blue-grow:hsla(220, 100%, 65%, 0.35);
+    --p-border:hsla(219, 35%, 28%, 1);
+    --p-text-main:hsla(0, 0%, 97%, 1);
+    --p-text-extra:hsla(220, 18%, 72%, 1);
+    --p-text-blur:hsla(220, 12%, 55%, 1);
+    --p-success:hsla(145, 70%, 48%, 1);
+    --p-warning:hsla(38, 100%, 58%, 1);
+    --p-danger:hsla(0, 85%, 63%, 1);  
+    
+    
+}

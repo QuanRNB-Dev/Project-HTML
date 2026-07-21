@@ -1,0 +1,214 @@
+/* =====================================
+   Laptop L (≤ 1440px)
+===================================== */
+@media (max-width: 1440px) {
+  .AboutMe-Skills {
+    width: 95%;
+    gap: 20px;
+  }
+}
+
+/* =====================================
+   Tablet (≤ 992px)
+===================================== */
+@media (max-width: 992px) {
+  /* Header */
+  .header .navbar {
+    gap: 15px;
+  }
+
+  /* Hello */
+  .Hello {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 50px;
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .Introduce {
+    width: 90% !important;
+    text-align: center;
+  }
+
+  /* About + Skills */
+  .AboutMe-Skills {
+    width: 95%;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .AboutMe,
+  .Skills {
+    width: 100%;
+  }
+
+  .content-main {
+    width: 100%;
+  }
+}
+
+/* =========================
+   Mobile (<= 768px)
+========================= */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+
+  .header .navbar {
+    display: none;
+  }
+
+  .DownloadCv {
+    display: none;
+  }
+
+  .Hello {
+    margin-top: 40px;
+
+    padding: 40px 20px;
+  }
+
+  .Introduce {
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .Introduce h1 {
+    font-size: 42px;
+  }
+
+  .Introduce h2 {
+    font-size: 24px;
+  }
+
+  .Introduce p {
+    font-size: 18px;
+  }
+
+  .avatar-main {
+    width: 280px;
+    height: 280px;
+  }
+
+  .avatar {
+    width: 180px;
+    height: 180px;
+  }
+
+  .box-item {
+    display: none;
+  }
+
+  .content-main {
+    flex-direction: column;
+
+    padding: 25px;
+
+    gap: 25px;
+
+    height: auto;
+  }
+
+  .content-1,
+  .content-2 {
+    width: 100%;
+
+    padding: 0;
+  }
+
+  .grid-content {
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+  }
+
+  .skills-content {
+    padding: 20px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+
+    grid-template-rows: auto;
+
+    gap: 20px;
+
+    height: auto;
+  }
+
+  .Project-Main {
+    width: 95%;
+
+    .Title-Project {
+      p {
+        font-size: 28px;
+      }
+    }
+
+    .Grid-Project {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+/* =========================
+   Mobile nhỏ (<= 480px)
+========================= */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .Introduce h1 {
+    font-size: 34px;
+  }
+
+  .Introduce h2 {
+    font-size: 20px;
+  }
+
+  .Introduce p {
+    font-size: 16px;
+  }
+
+  .avatar-main {
+    width: 220px;
+    height: 220px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .content-main,
+  .skills-content {
+    border-radius: 25px;
+  }
+
+  .Project-Main {
+    .Grid-Project {
+      .Card-Project {
+        .Project-Image {
+          height: 180px;
+        }
+
+        .Content-Project {
+          padding: 18px;
+
+          h2 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

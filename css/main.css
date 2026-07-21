@@ -1,0 +1,19 @@
+@import url(./theme.css);
+@import url(./sections/header.css);
+@import url(./sections/introduce.css);
+@import url(./sections/AboutMe-SkillS.css);
+@import url(./sections/Project.css);
+@import url(./responsive.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: var(--p-background-main);
+
+}

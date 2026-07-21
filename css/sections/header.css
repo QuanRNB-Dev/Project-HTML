@@ -1,0 +1,61 @@
+.header {
+  background-color: var(--p-background-section);
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  & .logo {
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: 500;
+    color: var(--p-primary);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 20px;
+  }
+
+  & .navbar {
+    width: 40%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    gap:30px;
+
+    & a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+
+    & a:hover{
+        color: var(--p-primary);
+    }
+  }
+
+  & .DownloadCv {
+    background-color: var(--p-primary);
+    width: 150px;
+    height: 50%;
+    border-radius: 20px;
+    margin-right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+
+    & a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+  }
+
+  & .DownloadCv:hover{
+    transform: scale(1.03);
+    background-color: var(--p-primary-hover);
+    box-shadow: 0 1px 2px white;
+  }
+}
